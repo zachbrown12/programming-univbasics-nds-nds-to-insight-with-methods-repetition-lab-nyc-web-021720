@@ -1,15 +1,15 @@
 require 'spec_helper'
 
-describe 'total_gross' do
-  it 'correctly totals the total gross' do
-    expect(total_gross(directors_database)).to eq(10355501925)
-  end
-end
-
 describe 'list of directors' do
   it 'correctly extracts :name keys out of an AoH where'  do
     stooges = [{:name => "Larry"}, {:name => "Curly"}, {:name => "Moe"}, {:name => "Iggy"}]
     expect(list_of_directors(stooges)).to eq(["Larry", "Curly", "Moe", "Iggy"])
+  end
+end
+
+describe 'total_gross' do
+  it 'correctly totals the total gross' do
+    expect(total_gross(directors_database)).to eq(10355501925)
   end
 end
 
