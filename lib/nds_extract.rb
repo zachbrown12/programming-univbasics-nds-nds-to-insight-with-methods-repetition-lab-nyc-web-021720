@@ -38,10 +38,11 @@ def total_gross(source)
   total = 0
   index = 0
   list = list_of_directors(source)
+  dirtotals = directors_totals(source)
   
   
   while index < source.length
-    if list[index] = 
+    if list[index] == dirtotals
   
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
