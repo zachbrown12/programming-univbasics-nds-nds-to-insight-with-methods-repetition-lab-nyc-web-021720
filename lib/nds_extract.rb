@@ -45,7 +45,7 @@ def total_gross(source)
     total += dirtotals[currentdirector] 
     index += 1
   end
-  
+total
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
   # 2. list_of_directors: names provides an Array of directors names (use
