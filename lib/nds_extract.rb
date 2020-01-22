@@ -31,13 +31,17 @@ def list_of_directors(source)
     list << source[index][:name]
     index += 1
   end
+  list
 end
 
 def total_gross(source)
   total = 0
   index = 0
+  list = list_of_directors(source)
   
   
+  while index < source.length
+    if list[index] = 
   
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
